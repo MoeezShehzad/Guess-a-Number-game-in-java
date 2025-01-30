@@ -1,7 +1,5 @@
 import java.util.Random;
 import java.util.Scanner;
-
-
 class GuessNumber{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
@@ -25,7 +23,7 @@ class GuessNumber{
                 System.exit(0);
             }
             boolean won = false;
-
+            
             while(!won)
             {
             System.out.println("Guess the Number");
@@ -47,7 +45,6 @@ class GuessNumber{
                 }
                 else
                     won = true;
-
             }
         }
         scan.close();
